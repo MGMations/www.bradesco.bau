@@ -1,0 +1,105 @@
+#pimage {
+    width: 20em;
+    border-radius: 20px;
+}
+
+html {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(190, 214, 218);
+    color: rgb(14, 63, 71);
+    text-align: center;
+}
+.theentirething {
+    text-align: left;
+}
+#ite {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 20px;
+    align-items: center;
+    max-width: 900px;
+    margin: 0 auto;
+    
+}
+.buybutton {
+    background-color: rgb(111, 158, 167);
+    width: 120px;
+    height: 50px;
+    margin-bottom: 10%;
+}
+button {
+    border-radius: 50px;
+    border: transparent;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgb(46, 108, 119);
+    color: white;
+    transition: all 0.1s ease-out;
+    margin-bottom: 10px;
+}
+
+button:hover {
+    cursor:pointer;
+    background-color: white;
+    color: black;
+    transform: translateY(-5px);
+}
+#savemetherestoomanydivs {
+    text-align: right;
+    margin: 20px;
+}
+
+table {
+    background-color: rgb(80, 136, 146);
+    color: rgb(190, 214, 218);
+    border-radius: 10px;
+    padding: 10px;
+    margin: 0 auto;
+}
+
+td {
+    border: solid 2px rgb(55, 116, 127);
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.ppt {
+    background-color: rgb(55, 116, 127);
+}
+
+h5 {
+    font-weight: 450;
+}
+
+h3 {
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    #ite {
+        grid-template-columns: 1fr;
+        justify-items: center;
+        /* PORRA PQ ESSAS DESGRAÇA NAO FUNCIONAAA
+        EU BOTEI TODOS OS CARALHO DE CENTRALIZAR E NAO CENTRALIZAAAAAA */
+    }
+}
+
+.review {
+    border-radius: 10px;
+    text-align: left;
+    padding-left: 10px;
+    border: solid rgb(55, 116, 127) 5px;
+    margin-top: 10px;
+}
+
+#rtx {
+    text-align: center;
+}
+
+.response {
+    background-color: rgb(150, 187, 194);
+    padding: 1px;
+    margin-right: 10px;
+    padding-left: 20px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}

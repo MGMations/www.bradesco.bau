@@ -1,0 +1,31 @@
+html {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(190, 214, 218);
+    color: rgb(14, 63, 71);
+    text-align: center;
+}
+
+h3 {
+    line-height: 0;
+}
+button {
+    border-radius: 50px;
+    border: transparent;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgb(46, 108, 119);
+    color: white;
+    transition: all 0.1s ease-out;
+}
+button:hover {
+    cursor:pointer;
+    background-color: white;
+    color: black;
+    transform: translateY(-5px);
+}
+#headertext {
+    text-align: center;
+}
+
+#atext {
+    text-align: left;
+}

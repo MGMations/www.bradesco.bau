@@ -1,0 +1,83 @@
+html {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(190, 214, 218);
+    color: rgb(14, 63, 71);
+    text-align: center;
+}
+#plaimg {
+    border-radius: 10px;
+    width: 80vw;
+    object-fit: contain;
+}
+
+button {
+    border-radius: 50px;
+    border: transparent;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgb(46, 108, 119);
+    color: white;
+    transition: all 0.1s ease-out;
+    margin-bottom: 10px;
+}
+
+.catalog {
+    width: 160px;
+}
+
+h1 {
+    font-weight: 1000;
+    line-height: 0.1
+}
+p {
+    font-weight: 2000
+}
+.phd {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    background-color: rgb(162, 172, 204);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.shits {
+    background-color: rgb(68, 83, 140);
+    border-radius: 10px;
+}
+
+
+.shits img {
+    width: 200px;
+    height: 200px;
+    flex: 1 0 200px;
+    width: 90%;
+    margin: 5%;
+    border-radius: 3px
+}
+.shits p{
+    font-style: italic;
+    border-radius: 50px;
+    color: #ffffff;
+
+}
+.buybutton {
+    background-color: rgb(162, 172, 204);
+    width: 120px;
+    height: 50px;
+    margin-bottom: 10%;
+}
+.review {
+    border-radius: 10px;
+    text-align: left;
+    padding-left: 10px;
+    border: solid rgb(55, 116, 127) 5px;
+    margin-top: 10px;
+}
+
+button:hover {
+    cursor:pointer;
+    background-color: white;
+    color: black;
+    transform: translateY(-5px);
+}
